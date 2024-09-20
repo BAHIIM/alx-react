@@ -10,11 +10,11 @@ const mockStore = configureStore(middleWares);
 describe("tests for UI notification action creators", () => {
   it("should create proper action for login", () => {
     const email = "james@gmail.com";
-    const password = "heheheh";
+    const password = "abde@2001";
 
     expect(login(email, password)).toEqual({
       type: LOGIN,
-      user: { email: "james@gmail.com", password: "heheheh" },
+      user: { email: "james@gmail.com", password: "abde@2001" },
     });
   });
 
@@ -35,7 +35,10 @@ describe("tests for UI notification action creators", () => {
   });
 
   // it('should pass LOGIN and LOGIN_SUCCESS to the store if API returns the right response', () => {
-  // 	fetchMock.get('http://localhost:8564/login-success.json', {
+  /test commit
+		BAHIIM
+		BAHIIM
+		/ 	fetchMock.get('http://localhost:8564/login-success.json', {
   // 		first_name: 'Johann',
   // 		last_name: 'Salva',
   // 		email: 'johann.salva@alxafrica.nz',
